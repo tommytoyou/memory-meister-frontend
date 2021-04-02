@@ -3,7 +3,7 @@ import { NavLink, Link } from 'react-router-dom';
 
 const Navbar = (props) => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav className="navbar navbar-expand-md navbar-dark bg-dark">
             <div className="container">
                 <Link className="navbar-brand" to="/">MemoryMeister</Link>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07" aria-controls="#navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
@@ -12,10 +12,10 @@ const Navbar = (props) => {
                 <div className="collapse navbar-collapse" id="navbarsExample07">
                     <ul className="navbar-nav mr-auto">
                         <li className="nav-item">
-                            <NavLink className="nav-link" exact to="/">Bring It</NavLink>
+                            <NavLink className="nav-link" exact to="/">Bring It Back</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link"  to="/about">This is us</NavLink>
+                            <NavLink className="nav-link"  to="/about">It is what this is.</NavLink>
                         </li>
                         <li className="nav-item">
                             <NavLink className="nav-link"  to="/board">Memory Practice</NavLink>
