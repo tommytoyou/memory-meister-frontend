@@ -1,25 +1,30 @@
 import React from 'react';
 import Card from './Card.js';
 import './Board.css';
+import Timer from './Timer.js';
+
+
+
 
 class Board extends React.Component {
   constructor(props) {
     super(props)
     const fronts = [
-      '🤪',
+      '🚯',
       '🏴󠁧󠁢󠁷󠁬󠁳󠁿',
-      '🤮',
+      '🔱',
       '🀄︎',
-      '',
-      '🚲',
-      '🚂',
-      '🧸',
-      '🤨',
-      '🤟',
-      '♥️',
-      '🦟',
-      '🦨',
-      '🀏',
+      '🏀',
+      '⛲️',
+      '🌋',
+      '💰',
+      '💹',
+      '🆓',
+      '🏴‍☠️',
+      '🃏',
+      '🇦🇺',
+      '🚀',
+      '🏝' ,
     ]
     const deck = fronts
       .concat(fronts)
@@ -70,20 +75,29 @@ class Board extends React.Component {
 
     this.flipCardTo(cardIdx, !this.state.deck[cardIdx].faceUp)
   }
+  refresh= () => {
+    this.props.history.go(0)
+  }
 
   render () {
     console.log(this.state.firstCard);
+    let board = this.state.deck.map((f, i) => {
+      return (<div className="Board">
+        <Card
+          flip={() => {this.flip(i)}}
+          content={f.content}
+          faceUp={f.faceUp} />
+      </div>)
+    })
     return (
-      this.state.deck.map((f, i) => {
-        return (<div className="Board">
-          <Card
-            flip={() => {this.flip(i)}}
-            content={f.content}
-            faceUp={f.faceUp} />
-        </div>)
-      })
+      <div>
+      <Timer />
+        {board}
+        <button onClick={this.refresh}>Start Over</button>
+      </div>
     )
   }
 }
+
 
 export default Board;
