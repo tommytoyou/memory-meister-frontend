@@ -3,6 +3,9 @@ import React, { useEffect, useState } from 'react';
 import { Route, Switch, Redirect } from 'react-router-dom';
 import jwt_decode from 'jwt-decode';
 import setAuthToken from './utils/setAuthToken';
+import background from "./images/rainforest-Olympic-National-Park-Washington.jpeg";
+
+
 
 // CSS
 import './App.css';
@@ -60,6 +63,7 @@ function App() {
   }
 
   return (
+    <div style={{ backgroundImage: `url(${background})` }}>
     <div className="App">
       <h1>MemoryMeister</h1>
       <br />
@@ -79,6 +83,7 @@ function App() {
         </Switch>
       </div>
       <Footer />
+    </div>
     </div>
   );
 }

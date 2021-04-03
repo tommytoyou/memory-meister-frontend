@@ -12,3 +12,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.navbar {
+  background-color: #a5755d;
+}
+.footer {
+  background-color: #a5755d;
+}
+:root { 
+  background: url('./images/rainforest-Olympic-National-Park-Washington.jpeg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+html, nav, div{
+  background: transparent;
+}
