@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { Route, Switch, Redirect } from 'react-router-dom';
 import jwt_decode from 'jwt-decode';
 import setAuthToken from './utils/setAuthToken';
-import background from "./images/rainforest-Olympic-National-Park-Washington.jpeg";
+import background from "./images/Design_bckgrnd_black.jpeg";
 
 
 
