@@ -13,10 +13,13 @@ code {
     monospace;
 }
 .navbar {
-  background-color: #a5755d;
+  background-color: #000000;
 }
 .footer {
-  background-color: #a5755d;
+  background-color: #000000;
+}
+.signup {
+  color: #000000;
 }
 :root { 
   background: url('./images/Design_bckgrnd_black.jpeg') no-repeat center center fixed; 

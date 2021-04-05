@@ -5,20 +5,20 @@ const Navbar = (props) => {
     return (
         <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
             <div className="container">
-                <Link className="navbar-brand" to="/">MemoryMeister</Link>
+                <Link className="navbar-brand" to="/">MemoryMeister™</Link>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07" aria-controls="#navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarsExample07">
                     <ul className="navbar-nav mr-auto">
                         <li className="nav-item">
-                            <NavLink className="nav-link" exact to="/">Bring It Back</NavLink>
+                            <NavLink className="nav-link" exact to="/">Diamond Minds</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link"  to="/about">It is what this is.</NavLink>
+                            <NavLink className="nav-link"  to="/about">Diamond Mind Tricks</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link"  to="/board">Memory Practice</NavLink>
+                            <NavLink className="nav-link"  to="/board">Memory Practice </NavLink>
                         </li>
                     </ul>
                     {

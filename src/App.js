@@ -65,7 +65,7 @@ function App() {
   return (
     <div style={{ backgroundImage: `url(${background})` }}>
     <div className="App">
-      <h1>MemoryMeister</h1>
+      <h1>MemoryMeister™</h1>
       <br />
       <h3></h3>
       <Navbar handleLogout={handleLogout} isAuth={isAuthenticated} />

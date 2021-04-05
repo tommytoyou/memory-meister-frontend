@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+# MemoryMeister™ 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Concept
 
-## Available Scripts
+ MemoryMeister™ is a proof of concept to deploy a mobile app to help people improve their memory.
 
-In the project directory, you can run:
+ # Usage
 
-### `yarn start`
+# Sign-up
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The sign-up page is where the user creates a username and password for their account.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# Profile
 
-### `yarn test`
+The profile page displays the users account info
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Landing
 
-### `yarn build`
+The landing page introduces users to the concept of a "Diamond Mind", one which is focused, clear, and open to make intuitive leaps all around having a good memory.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Diamond Mind Tricks
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The Diamond Mind Tricks pageSHows users some methods and ways to improve their memory.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Memory Practice
 
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The Memory Practice page hald thirty cards face down. The user must flip the cards over (They return to being face down within three seconds.) and recall where the matching card is to keep the pair face up. The countdown is sixty seconds. The objective is to match all of the f pairs (fifteen of them) within that time.

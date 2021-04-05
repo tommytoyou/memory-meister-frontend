@@ -7,6 +7,12 @@ body {
   margin-bottom: 60px; /* Margin bottom by footer height */
   color: whitesmoke;
 }
+.py-2 {
+  color: #000000;
+}
+.form-group {
+  color: #000000;
+}
 .footer {
   position: absolute;
   bottom: 0;
