@@ -8,7 +8,7 @@
 
 # Sign-up
 
-
+![Sign Up](/images/Sign_up.jpeg)
 The sign-up page is where the user creates a username and password for their account.
 <!-- ![Sign Up](/images/Sign_up.jpeg) -->
 ![Alt text](/images/Sign_up.jpeg?raw=true "Title")
