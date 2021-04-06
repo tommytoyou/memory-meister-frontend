@@ -4,11 +4,9 @@
 
  MemoryMeister™ is a proof of concept to deploy a mobile app to help people improve their memory.
 
- # Usage
 
 # Sign-up
 
-![Sign Up](/images/Sign_up.jpeg)
 The sign-up page is where the user creates a username and password for their account.
 
 ![Image](src/images/Sign_up.jpeg "icon")
